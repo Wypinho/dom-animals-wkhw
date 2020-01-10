@@ -2,14 +2,27 @@ body {
   font-family: Palatino;
 }
 
+#new-item-form {
+  width: 43%;
+  border: 1px solid #20437c;
+  border-radius: 25px;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  background: #f2c3d7;
+}
+
 #form-wrapper {
-  width: 100%;
   display: flex;
   flex-direction: row;
 }
 
 .form-item {
   margin-right: 1.8rem;
+  border: 1px solid #20437c;
+  border-radius: 5px;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem 0.8rem;
+  background: #ddeaff;
 }
 
 label.primary {
