@@ -26,6 +26,8 @@ const createAnimal = function (form) {
 
   const species = document.createElement('h3');
   species.textContent = form.species.value;
+  // console.log(form);
+  // species.textContent = form.species.value;
   animal.appendChild(species);
 
   const continent = document.createElement('p');
